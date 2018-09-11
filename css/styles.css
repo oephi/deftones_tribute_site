@@ -1,0 +1,20 @@
+#image-fade {
+    position:relative;
+    height:200px;
+    /* width:px; */
+    margin:0 auto;
+  }
+  
+  #image-fade img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #image-fade img.top:hover {
+    opacity:0;
+  }
+  
